@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+        <link rel="shortcut icon" href="assets/img/favicon.jpeg" type="image/jpeg">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+ 
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>pemandian alam banga</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo"></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Galeri" class="nav__link">Galeri</a>
+                        </li>
+                        
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/banga.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle"></span>
+                        <h1 class="home__data-title" style="color: #ffffff;"> <b> PEMANDIAN <b>ALAM BANGA<br></b></h1>
+                        <a href="#" class="button">KUNJUNGI</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.instagram.com/bathhouse_banga?igsh=b3RsY2pxYnVqbHZl" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@kknt.mbkm.unipol?_t=ZS-8yirYbFehcO&_r=1" target="_blank" class="home__social-link">
+                            <i class="ri-music-line"></i>
+                        </a>
+						<a href="https://maps.app.goo.gl/zddPv7MMVcLygvYMA?g_st=ac" target="_blank" class="home__social-link">
+                            <i class="ri-map-pin-fill"></i>
+							
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">SEJARAH PEMANDIAN ALAM BANGA <br></h2>
+                        <p class="about__description">Banga (Pigafetta elata) adalah sejenis palma yang tinggi dan indah yang tumbuh dan tersebar di wilayah Desa Gattareng Toa. Batang yang licin dan lurus digunakan dibuat sebagai bakul sebagai tempat barang dan bahkan tikar para orang tua dulu. Tumbuhan ini tumbuh di sekitar sumber mata air diperbatasan Kampung Kessi-Gattareng. Yang kemudian pada perkembangan nya nama pohon ini di ambil sebagai nama tempat yaitu Banga.
+
+Kampung ini terdapat sumber mata air yang luar biasa yang airnya begitu besar dan menjadi sumber air minum dan pengairan. Setelah Desa Gattareng dilakukan pemecahan menjadi dua Desa dan lahirlah Desa Gattareng Toa.
+
+Setelah melihat potensi air ini kepala Desa pertama Desa Gattareng Toa Bapak Ibrahim S.,E.Μ.,Μ (2003-2008) membangun sebuah kolam yang bisa di dialihfungsikan menjadi pemandian untuk masyarakat sekitar maupun luar yang kemudian diberi nama "Pemandian Alam Banga" yang didirikan pada tahun 2005.
+
+                        </p>
+                        <a href="#" class=""></a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/ibrahim.png" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/tanamanbanga.png" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+           <section class="discover section" id="discover">
+    <h2 class="section__title">GALERI <br></h2>
+    <div class="discover__container container swiper-container">
+        <div class="swiper-wrapper" id="gallery-wrapper">
+            <!-- Foto akan ditambahkan otomatis oleh JavaScript -->
+        </div>
+    </div>
+</section>
+
+<script>
+    // Daftar gambar
+    const photos = [
+        "assets/img/fotomasuk.png",
+        "assets/img/fotogunung.png",
+        "assets/img/perahu.png",
+        "assets/img/perahu1.png",
+        "assets/img/welcome.png",
+		"assets/img/fotoatas.png",
+		"assets/img/fotogazebo.png",
+		"assets/img/taman.png",
+		"assets/img/taman2.png",
+		"assets/img/mural.png",
+		"assets/img/ayunan.png",
+		"assets/img/tali.png",
+		"assets/img/cucitangan.png",
+		"assets/img/pengunjung.png",
+		"assets/img/pengunjung1.png",
+    ];
+
+    const galleryWrapper = document.getElementById("gallery-wrapper");
+
+    photos.forEach(photo => {
+        const card = `
+            <div class="discover__card swiper-slide">
+                <img src="${photo}" alt="" class="discover__img">
+                <div class="discover__data">
+                    <h2 class="discover__title"></h2>
+                    <span class="discover__description"></span>
+                </div>
+            </div>
+        `;
+        galleryWrapper.innerHTML += card;
+    });
+</script>
+
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">Pesona Air Dingin Banga <br>Ayo Healing Ke Banga Bersama Keluarga, Pasangan Maupun Sahabat
+				<br>Bersama Merasakan Air Dingin Pegunungan Yang Sangat Segar </h2>   
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number"></h2>
+                            <span class="experience__description"><br></span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number"></h2>
+                            <span class="experience__description"> <br></span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number"></h2>
+                            <span class="experience__description"><br></span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/renang.png" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/img/makan.png" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Video Tour</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Temukan pesona tersembunyi di Desa Gattareng Toa, petualangan tak terlupakan menantimu!
+                 
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/vlog.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title"></h3>
+                        <p class="footer__description"><br> 
+                            <br> 
+                        </p>
+                        <div>
+                            <a href="https://www.tiktok.com/@kknt.mbkm.unipol?_t=ZS-8yirYbFehcO&_r=1" target="_blank" class="footer__social">
+                                <i class="ri-music-line"></i>
+                            </a>
+                            <a href="https://www.instagram.com/bathhouse_banga?igsh=b3RsY2pxYnVqbHZl" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://maps.app.goo.gl/zddPv7MMVcLygvYMA?g_st=ac""https://www.tiktok.com/@bathhousebanga?_t=ZS-8ygACUO5DXz&_r=1" target="_blank" class="home__social-link">
+                            <i class="ri-map-pin-fill"></i>
+                        </div>
+                    </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; KKN-T MBKM UNIVERSITAS LAMAPPAPOLEONRO 2025</p>
+                    <div class="footer__terms">
+                
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
